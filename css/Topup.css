@@ -1,0 +1,544 @@
+body {
+  background: linear-gradient(90deg, #051848, #2485a8, #0a1035);
+}
+.navbar {
+  height: 89px;
+  padding: 0px;
+  background-color: #11162d;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 225px;
+  padding-top: 25px;
+}
+
+/* search */
+.search-box {
+  position: absolute;
+  left: 800px;
+  background-color: black;
+  height: 39px;
+  padding: 6px 15px;
+  border-radius: 50px;
+  color: white;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+}
+
+.search-box a {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+/* akhir search */
+
+/* form */
+.form {
+  background-color: black;
+  position: absolute;
+  height: 39px;
+  left: 1070px;
+  padding-left: 15px;
+  padding-top: 2px;
+  border-radius: 50px;
+  color: white;
+  width: 143px;
+}
+
+.form .login {
+  border: none;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+}
+
+.form .sign {
+  border: none;
+  background-color: #17335a;
+  border-radius: 50px;
+  height: 34px;
+  padding-left: 12px;
+}
+
+.slide {
+  padding-top: 85px;
+}
+.slide button {
+  padding-top: 85px;
+}
+/* Card */
+
+.pilihan {
+  margin-top: 1000px;
+}
+.pilihan h1 {
+  color: black;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  top: 620px;
+  left: 225px;
+}
+
+.pilihan h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: -10px;
+  bottom: -15px;
+  width: 157px;
+  height: 2px;
+  background-color: #11162d;
+}
+
+.pilihan .card1 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -180px;
+  left: 200px;
+}
+
+.pilihan .card1 img {
+  padding: 3px;
+}
+
+.pilihan .card1 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card1 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.pilihan .card2 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -180px;
+  left: 580px;
+}
+
+.pilihan .card2 img {
+  padding: 3px;
+}
+
+.pilihan .card2 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card2 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.pilihan .card3 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -180px;
+  left: 960px;
+}
+
+.pilihan .card3 img {
+  padding: 3px;
+}
+
+.pilihan .card3 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card3 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.pilihan .card4 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -370px;
+  left: 200px;
+}
+
+.pilihan .card4 img {
+  padding: 3px;
+}
+
+.pilihan .card4 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card4 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.pilihan .card5 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -370px;
+  left: 580px;
+}
+
+.pilihan .card5 img {
+  padding: 3px;
+}
+
+.pilihan .card5 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card5 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.pilihan .card6 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -370px;
+  left: 960px;
+}
+
+.pilihan .card6 img {
+  padding: 3px;
+}
+
+.pilihan .card6 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card6 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.pilihan .card7 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -560px;
+  left: 200px;
+}
+
+.pilihan .card7 img {
+  padding: 3px;
+}
+
+.pilihan .card7 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card7 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.pilihan .card8 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -560px;
+  left: 580px;
+}
+
+.pilihan .card8 img {
+  padding: 3px;
+}
+
+.pilihan .card8 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card8 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.pilihan .card9 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -560px;
+  left: 960px;
+}
+
+.pilihan .card9 img {
+  padding: 3px;
+}
+
+.pilihan .card9 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card9 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.pilihan .card10 {
+  background: linear-gradient(
+    -48deg,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(217, 217, 217, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  width: 324px;
+  height: 111px;
+  position: absolute;
+  bottom: -750px;
+  left: 200px;
+}
+
+.pilihan .card10 img {
+  padding: 3px;
+}
+
+.pilihan .card10 h2 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.pilihan .card10 p {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+/* akhir card */
+.footer {
+  margin-top: -130px;
+  padding-bottom: 5px;
+  background-color: #0f1e3b;
+  font-family: "Poppins", serif;
+}
+
+.footer img {
+  position: absolute;
+  right: 5px;
+  top: 1692px;
+}
+
+.footer .ig {
+  position: absolute;
+  bottom: 470px;
+  left: 730px;
+}
+
+.footer .fb {
+  position: absolute;
+  bottom: 470px;
+  left: 790px;
+}
+
+.footer .li {
+  position: absolute;
+  bottom: 470px;
+  left: 850px;
+}
