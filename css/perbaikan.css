@@ -87,8 +87,8 @@ body {
   font-size: 24px;
   font-weight: 600;
   position: absolute;
-  top: 620px;
-  left: 225px;
+  top: 570px;
+  left: 42%;
 }
 
 .pilihan h1::after {
@@ -116,7 +116,7 @@ body {
   height: 111px;
   position: absolute;
   bottom: -180px;
-  left: 200px;
+  left: 130px;
 }
 
 .pilihan .card1 img {
@@ -157,7 +157,7 @@ body {
   height: 111px;
   position: absolute;
   bottom: -180px;
-  left: 580px;
+  left: 520px;
 }
 
 .pilihan .card2 img {
@@ -198,7 +198,7 @@ body {
   height: 111px;
   position: absolute;
   bottom: -180px;
-  left: 960px;
+  left: 920px;
 }
 
 .pilihan .card3 img {
@@ -239,7 +239,7 @@ body {
   height: 111px;
   position: absolute;
   bottom: -370px;
-  left: 200px;
+  left: 130px;
 }
 
 .pilihan .card4 img {
@@ -280,7 +280,7 @@ body {
   height: 111px;
   position: absolute;
   bottom: -370px;
-  left: 580px;
+  left: 520px;
 }
 
 .pilihan .card5 img {
@@ -321,7 +321,7 @@ body {
   height: 111px;
   position: absolute;
   bottom: -370px;
-  left: 960px;
+  left: 920px;
 }
 
 .pilihan .card6 img {
@@ -362,7 +362,7 @@ body {
   height: 111px;
   position: absolute;
   bottom: -560px;
-  left: 200px;
+  left: 130px;
 }
 
 .pilihan .card7 img {
@@ -403,7 +403,7 @@ body {
   height: 111px;
   position: absolute;
   bottom: -560px;
-  left: 580px;
+  left: 520px;
 }
 
 .pilihan .card8 img {
@@ -444,7 +444,7 @@ body {
   height: 111px;
   position: absolute;
   bottom: -560px;
-  left: 960px;
+  left: 920px;
 }
 
 .pilihan .card9 img {
